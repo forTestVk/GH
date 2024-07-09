@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 09 16:23:27 YEKT 2024","Tue Jul 09 16:23:34 YEKT 2024","6679","","deleteIssue.test.ts","Удаление Issue","","","Удалить issue с названием “Issue 1”",""
+"passed","Tue Jul 09 16:23:15 YEKT 2024","Tue Jul 09 16:23:21 YEKT 2024","6128","","checkIssue.test.ts","Проверка Issues","","","Проверить, что тестовая запись создалась и она есть в списке Issues",""
+"passed","Tue Jul 09 16:22:57 YEKT 2024","Tue Jul 09 16:23:06 YEKT 2024","9015","","createIssuePage.test.ts","Создание Issue","","","Создать issue с названием “Issue 1” и описанием “Я нашел баг”",""

@@ -1,0 +1,25 @@
+{
+  "name": "gh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open"
+  },
+  "keywords": [],
+  "author": "Nikita P.",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.45.1",
+    "allure-playwright": "^3.0.0-beta.6",
+    "playwright": "^1.45.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "@playwright/test": "^1.45.1",
+    "allure-commandline": "^2.13.8"
+  }
+}
