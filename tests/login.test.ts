@@ -9,7 +9,7 @@ test('Авторизация на GitHub', async ({ page }) => {
   });
 
   await test.step('Ввести логин и пароль', async () => {
-    await loginPage.login('forTestVk', '@0tCaf>p+.hNDbNdEgGX');
+    await loginPage.login('Тут ваш логин', 'Тут ваш пароль');
   });
 
   await test.step('Проверить успешную авторизацию', async () => {

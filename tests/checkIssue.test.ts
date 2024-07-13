@@ -11,7 +11,7 @@ test.describe('Проверка Issues', () => {
 
     const loginPage = new LoginPage(page);
     await loginPage.goto();
-    await loginPage.login('forTestVk', '@0tCaf>p+.hNDbNdEgGX');
+    await loginPage.login('Тут ваш логин', 'Тут ваш пароль');
   });
 
   test('Проверить, что тестовая запись создалась и она есть в списке Issues', async ({ page }) => {
