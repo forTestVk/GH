@@ -11,7 +11,7 @@ test.describe("Удаление Issue", () => {
 
     const loginPage = new LoginPage(page);
     await loginPage.goto();
-    await loginPage.login('Тут ваш логин', 'Тут ваш пароль');
+    await loginPage.login("forTestVk", "@0tCaf>p+.hNDbNdEgGX");
   });
 
   test("Удалить issue с названием “Issue 1”", async ({ page }) => {
